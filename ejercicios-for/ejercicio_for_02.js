@@ -3,16 +3,16 @@
 
 // Patrón creciente
 for (let i = 1; i <= 5; i++) {
-    let linea = "";
+    let patronDescendente = "";
     for (let j = 1; j <= i; j++) {
-        linea += "*";
+        patronDescendente += "*";
     }
-    console.log(linea);
+    console.log(patronDescendente);
 }
 for (let i = 4; i >= 1; i--) {
-    let patron = "";
+    let patronAscendente = "";
     for (let j = 1; j <= i; j++) {
-        patron += "*";
+        patronAscendente += "*";
     }
-    console.log(patron);
+    console.log(patronAscendente);
 }
