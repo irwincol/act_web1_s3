@@ -17,14 +17,3 @@ for (let i = cadenaOriginal.length - 1; i >= 0; i--) {
 console.log("Cadena original:", cadenaOriginal);
 console.log("Cadena invertida:", cadenaInvertida);
 
-// Probemos con otras cadenas
-let ejemplos = ["JavaScript", "¡Programación!", "2024"];
-
-for (let texto of ejemplos) {
-    let invertida = "";
-    for (let i = texto.length - 1; i >= 0; i--) {
-        invertida += texto[i];
-    }
-    console.log("\nOriginal:", texto);
-    console.log("Invertida:", invertida);
-}
