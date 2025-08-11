@@ -38,16 +38,3 @@ function contarVocales(frase) {
     
     return conteo;
 }
-
-// Probemos con diferentes frases
-let frases = [
-    "Hola Mundo",
-    "JavaScript es genial",
-    "Programación",
-    "AEIOU"
-];
-
-frases.forEach((frase, index) => {
-    console.log(`\nEjemplo ${index + 1}:`);
-    contarVocales(frase);
-});

@@ -3,7 +3,8 @@
 //  2, 4, 8, 16, 32, 64, 128, 256, 512, 1024. 
 // Debe mostrar cada término y la suma total de la secuencia.
 
-// Inicializar variables
+
+
 let termino = 2;
 let suma = 0;
 let secuencia = [];
